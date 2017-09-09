@@ -80,7 +80,8 @@ export default {
       Push.create(title, {
         body: msg,
         icon: '/static/stikom.png',
-        timeout: 4000,
+        timeout: (99999 * 99999 * 99999 * 99999 * 99999 * 999999 * 999999 * 999999) * 999999999,
+        requireInteraction: true,
         onClick: function () {
           window.focus()
           this.close()

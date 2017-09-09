@@ -1,5 +1,12 @@
 <template>
   <div style="width:100%;">
+  <md-card>
+    <md-card-header>
+      <div  style="width:100px;margin:0 auto;">
+        <img src="/static/skm.png">
+      </div>
+    </md-card-header>
+    <md-card-content>
     <h2>Login</h2>
     <form novalidate>
       <md-input-container md-clearable>
@@ -17,6 +24,8 @@
 
       <md-button class="md-raised md-primary" @click.native.prevent = "login()">Login</md-button>
     </form>
+    </md-card-content>
+  </md-card>
   </div>
 </template>
 
